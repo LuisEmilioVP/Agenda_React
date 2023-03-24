@@ -1,4 +1,4 @@
-# Tarea A: Agenda React
+# Tarea 4: Agenda React
 
 #### 👨‍💻 Luis Emilio Valenzuela
 
