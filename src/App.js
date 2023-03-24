@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/header';
+import ShowContacts from './components/ShowContacts';
+import AddContacts from './components/AddContacts';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="container">
+			{/* Header */}
+			<Header></Header>
+
+			{/* Add Contacts */}
+			<div className="App">
+				<div className="container-fluid">
+					<AddContacts></AddContacts>
+					<ShowContacts></ShowContacts>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default App;
